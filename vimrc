@@ -41,37 +41,28 @@ Plug 'junegunn/vader.vim'
 " WakaTime: The open source plugin for productivity metrics, goals, leaderboards, and automatic time tracking.
 Plug 'wakatime/vim-wakatime'
 
+" EasyAlign: Shorthand notation, fetches https://github.com/junegunn/vim-easy-align
+Plug 'junegunn/vim-easy-align'
+
+" VimSlash: provides a set of mappings for enhancing in-buffer search experience in Vim.
+Plug 'junegunn/vim-slash'
+
 " TabNine: multi-language predictive code autocomplete tool.
 " Stopped using because it autocompleted waaaay too much
 " set rtp+=~/.vim/tabnine-vim
 
+" Stopped using these plugins because I was not using Git inside Vim that much...
 " Fugitive: a Git wrapper so awesome, it should be illegal.
-Plug 'tpope/vim-fugitive'
+" Plug 'tpope/vim-fugitive'
+" GitHubDashboard: Browse GitHub events in Vim
+" Plug 'https://github.com/junegunn/vim-github-dashboard.git'
 
-" Shorthand notation; fetches https://github.com/junegunn/vim-easy-align
-Plug 'junegunn/vim-easy-align'
-
-" vim-slash provides a set of mappings for enhancing in-buffer search experience in Vim.
-Plug 'junegunn/vim-slash'
-
-" Any valid git URL is allowed
-Plug 'https://github.com/junegunn/vim-github-dashboard.git'
-
-" Multiple Plug commands can be written in a single line using | separators
-Plug 'SirVer/ultisnips' | Plug 'honza/vim-snippets'
+" UltiSnips: the ultimate solution for snippets in Vim.
+Plug 'SirVer/ultisnips'
 
 " On-demand loading
 Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 Plug 'tpope/vim-fireplace', { 'for': 'clojure' }
-
-" Using a non-default branch
-Plug 'rdnetto/YCM-Generator', { 'branch': 'stable' }
-
-" Using a tagged release; wildcard allowed (requires git 1.9.2 or above)
-Plug 'fatih/vim-go', { 'tag': '*' }
-
-" Plugin options
-Plug 'nsf/gocode', { 'tag': 'v.20150303', 'rtp': 'vim' }
 
 " Plugin outside ~/.vim/plugged with post-update hook
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
