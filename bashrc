@@ -18,5 +18,6 @@ export PS1="\$ "
 # export SYSTEMD_PAGER=
 
 # User specific aliases and functions
-
+export EDITOR=/usr/bin/vim
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
+. "$HOME/.cargo/env"

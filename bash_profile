@@ -7,3 +7,4 @@ fi
 
 # User specific environment and startup programs
 feh --bg-scale ~/Pictures/fedora34-wallpaper.png
+. "$HOME/.cargo/env"

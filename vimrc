@@ -39,7 +39,7 @@ Plug 'junegunn/vim-plug'
 Plug 'junegunn/vader.vim'
 
 " WakaTime: The open source plugin for productivity metrics, goals, leaderboards, and automatic time tracking.
-Plug 'wakatime/vim-wakatime'
+" Plug 'wakatime/vim-wakatime'
 
 " EasyAlign: Shorthand notation, fetches https://github.com/junegunn/vim-easy-align
 Plug 'junegunn/vim-easy-align'
